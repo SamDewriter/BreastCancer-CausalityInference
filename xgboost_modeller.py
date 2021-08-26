@@ -2,6 +2,8 @@ import xgboost as xgb
 from sklearn.model_selection import RandomizedSearchCV 
 from mlflow.xgboost import autolog
 import logging
+import warnings
+warnings.filterwarnings('ignore')
 
 class XgModeller():
     def __init__(self) -> None:
