@@ -11,6 +11,6 @@ The main objective of the task is to highlight the possibility of that assumptio
 This is an attempt to solve the problem using the follow methods:
 <ul>
   <li>Perform a causal inference task using Pearl’s framework;</li>
-  <li>Infer the causal graph from observational data and then validate the graph;</li
+  <li>Infer the causal graph from observational data and then validate the graph;</li>
   <li>Merge machine learning with causal inference;</li>
 </ul>
