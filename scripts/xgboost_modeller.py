@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import xgboost as xgb
 from sklearn.model_selection import RandomizedSearchCV 
 from mlflow.xgboost import autolog
@@ -48,16 +42,3 @@ class XgModeller():
         logging.info('Feature importance plotting in process...')
         best_model = self.best_model
         xgb.plot_importance(best_model, max_num_features=max_feats)
-
-
-# In[3]:
-
-
-get_ipython().system("jupyter nbconvert --to script 'xgboost_modeller.ipynb'")
-
-
-# In[ ]:
-
-
-
-
